@@ -10,4 +10,3 @@ print(example[1::2])
 
 
 
-
