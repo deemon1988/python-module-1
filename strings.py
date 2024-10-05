@@ -53,6 +53,11 @@ print(s.istitle())
 s = 'Python is good'
 print(s.istitle())
 
+s1 = "Straße"
+s2 = "strasse"
+
+print(s1.lower())    # Вывод: "straße"
+print(s1.casefold()) # Вывод: "strasse"
 
 
 
