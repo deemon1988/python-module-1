@@ -59,8 +59,23 @@ s2 = "strasse"
 print(s1.lower())    # Вывод: "straße"
 print(s1.casefold()) # Вывод: "strasse"
 
+delimiter = ","
+csv_str = delimiter.join(['a', 'b', 'c'])
+print(csv_str) # a,b,c
+tuple_ = ('первая строка', 'вторая строка', 'третья строка', 'четвётая строка', 'пятая строка')
+string = ", ".join(tuple_)
+print(string)
+str_1 = 'Hello'
+print(f'String characters are: {",".join(str_1)}')
 
+print(str_1.rjust(10, '*'))
+print(str_1.ljust(10, "-"))
 
+print('   spacious   '.lstrip())
+print('www.example.com'.lstrip('cmowz.ea'))
+
+print('Arthur: three!'.lstrip('Arthur: '))
+print('Arthur: three!'.removeprefix('Arthur: '))
 
 
 
