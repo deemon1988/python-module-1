@@ -1,10 +1,12 @@
+from random import shuffle
+
 sorted_list = sorted([1,5,3,8,2,9,1,4,8,2,7,4,8,3,2,1,8,9])
 print(sorted_list)
 shuffle(sorted_list)
 print(sorted_list)
-sorted_list.sort()
+sorted_list.sort(reverse=True)
 print(sorted_list)
-print(sorted({2: 'D', 3: 'B', 1: 'B', 5: 'E', 4: 'A'}))
+print(sorted({2: 'D', 3: 'B', 1: 'B', 5: 'E', 4: 'A'},reverse=True))
 sorted_list = sorted("This is a test string from Andrew".split(), key=str.casefold)
 print(sorted_list)
 
